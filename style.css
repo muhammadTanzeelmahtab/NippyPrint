@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar section  */
+
+.navbar-nav{
+    padding-right: 80px !important;
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: 700;
+   padding: 15px 15px 15px 15px !important;
+ 
+}
+
+.firstcolor{
+    background-color: #4598E7 ;
+}
+.secondcolor{
+    background-color: #DF007D;
+}
+.thirdcolor{
+    background-color: #dedc38;
+}
+.fourthcolor{
+    background-color: #000000;
+}
+.fivthcolor{
+    background-color: #727477;
+}
+
+/* image section  */
+
+
+.img-jumbo img {
+    width: 100% !important;    
+}
+
+/* about nippy  */
+
+.background_image{
+    width: 100%;
+    background-image: url('./images/bg-blue.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;  
+}
+.text{
+    max-width: 400px;
+    color: white;
+    font-size: 15px;
+}
+.heads{
+    color: white;
+    font-weight: bold;
+}
+
+/* our services  */
+
+.our{
+    font-weight: bold ;
+    font-size: 40px;
+}
+.btn{
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    color: white;
+    background-color: #186EA8;
+    padding: 20px 40px !important;
+    border-radius: 0px 0px 0px 0px !important;
+}
+.HDTxt{
+    font-weight: bold;
+}
+.order{
+    color: #186EAB;
+}
+@media screen and (max-width: 992px) {
+    .HDTxt{
+        margin-left: 100px;
+    }
+    .order {
+      margin-left: 100px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .HDTxt{
+        margin-left: 100px;
+    }
+    .order {
+        margin-left: 100px;
+      }
+  }
+
+
+  /* product section  */
+
+.background-blue{
+    background-image: url('./images/bg-blue.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;  
+    width: 100%;
+}
+
+.card{
+    width: 100%;
+    height: 200px !important;
+    border-radius: 0px!important;
+    position: relative;
+    overflow: hidden;
+    min-height: 320px;
+
+}
+.card-image{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+.card:hover .card-image{
+    transform: scale(1.15);
+    opacity: .6;
+    transition: transform .75s;
+}
+.card-title{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    text-shadow: 0 0 1px rgba(0,0,0,.5);
+    color: white;
+    font-weight: bold;
+}
+@media screen and (max-width: 992px) {
+    .card{
+        margin: 10px;
+    }
+}
+    @media screen and (max-width: 600px) {
+        .card{
+            margin: 10px;
+        }
+    }
+
+    /* contact section  */
+
+    .background-yellow{
+        width: 100%;
+    background-image: url('./images/bg-yellow.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto !important;  
+    }
+   .texts{
+    font-weight: bolder !important;
+   }
+   .para{
+    font-weight: bolder !important;
+   }
+
+   .contact-page-form {
+    display: inline-block !important;
+    width: 100% !important;
+    margin-top: 30px !important;
+    padding: 30px 40px;
+    }
+  
+   input{
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #f9f9f9;
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    width: 100%;
+   }
+   textarea{
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #f9f9f9;
+    width: 100%;
+    height: 100px;
+    padding: 12px 16px;
+   } 
+   #btn{
+    background: black;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    padding: 10px 0;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 16px;   
+   }
+
+   /* footer nippy  */
+   .npy_txt{
+    color: white;
+    font-weight: bolder;
+    font-size: 36px;
+   }
+   .npy_text{
+    font-size: 24px !important;
+    color: white;
+    font-weight: bolder;
+   }
+
+   .parahraphs{
+    color: var( --e-global-color-9f816c1 );
+    color: white;
+    font-size: 14px;
+   }
+
+   .fa-facebook{
+    padding: 10px 15px;
+   background: #3B5998;
+    font-size: 25px;
+    color: white;
+   }
+   .fa-twitter{
+    padding: 10px 15px;
+    background: #1DA1F2;
+    font-size: 25px;
+    color: white;
+   }
+ .fa-linkedin{
+    padding: 10px 15px;
+    background: #0077B5;
+    font-size: 25px;
+    color: white;
+ }
+ .last{
+    font-size: 13px;
+ }
